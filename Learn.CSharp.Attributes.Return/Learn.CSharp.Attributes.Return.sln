@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.CSharp.Attributes.Return", "Learn.CSharp.Attributes.Return\Learn.CSharp.Attributes.Return.csproj", "{287EDB46-9504-48AD-B7FA-AFC542C19496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.CSharp.Attributes.Return.Framework", "Learn.CSharp.Attributes.Return.Framework\Learn.CSharp.Attributes.Return.Framework.csproj", "{024D2B53-ED5D-46EE-963A-1832C1251936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287EDB46-9504-48AD-B7FA-AFC542C19496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287EDB46-9504-48AD-B7FA-AFC542C19496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287EDB46-9504-48AD-B7FA-AFC542C19496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287EDB46-9504-48AD-B7FA-AFC542C19496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024D2B53-ED5D-46EE-963A-1832C1251936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024D2B53-ED5D-46EE-963A-1832C1251936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024D2B53-ED5D-46EE-963A-1832C1251936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024D2B53-ED5D-46EE-963A-1832C1251936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
