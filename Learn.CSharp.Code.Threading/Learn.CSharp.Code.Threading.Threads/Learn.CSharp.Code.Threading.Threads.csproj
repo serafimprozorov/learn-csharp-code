@@ -3,8 +3,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="WebServer\Async" />
-    <Folder Include="WebServer\CrazyWebServer" />
-    <Folder Include="WebServer\Simple" />
+    <ProjectReference Include="..\Learn.CSharp.Code.Common\Learn.CSharp.Code.Common.csproj">
+      <Project>{BED38E8B-29EF-4AFB-934C-EC6386CFFE2B}</Project>
+      <Name>Learn.CSharp.Code.Common</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

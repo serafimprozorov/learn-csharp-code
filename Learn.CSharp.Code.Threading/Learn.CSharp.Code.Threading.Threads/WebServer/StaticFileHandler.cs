@@ -1,11 +1,9 @@
-﻿namespace Learn.CSharp.Code.Threading.Threads.Simple
+﻿namespace Learn.CSharp.Code.Threading.Threads.WebServer
 {
     using System.Collections.Generic;
     using System.IO;
     using System.Net;
     
-    using Threads;
-
     using static System.StringComparison;
     
     

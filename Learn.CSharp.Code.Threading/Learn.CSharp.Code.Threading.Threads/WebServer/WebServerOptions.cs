@@ -1,4 +1,4 @@
-﻿namespace Learn.CSharp.Code.Threading.Threads
+﻿namespace Learn.CSharp.Code.Threading.Threads.WebServer
 {
     using System;
     using System.Collections.Generic;

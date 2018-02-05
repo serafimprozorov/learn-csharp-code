@@ -40,7 +40,7 @@
             if (timeoutMs != Timeout.Infinite && timeoutMs <= 0)
                 throw new ArgumentException("Timeout must be positive number", nameof(timeoutMs));
 
-            // Просто захватываем блокировку.
+            // Просто пытаемся захватить блокировку в течение указанного времени.
             IsTaken = Monitor.TryEnter(_monitor, timeoutMs);
 
             return this;

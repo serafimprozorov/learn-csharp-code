@@ -1,5 +1,5 @@
 ﻿namespace Learn.CSharp.Code.Threading.Threads
-{
+{ 
     using System.Threading;
     
     
@@ -20,7 +20,7 @@
     ///   Спинлок нереентернабелен, если попытаться захватить второй раз произойдет исключение. Эта ситуация 
     /// обрабатывается в Acquire.
     /// 
-    /// Как его использовать и почему -- покажу в примере SimpleWebServer.
+    ///   Как его использовать и почему -- покажу в примере SimpleWebServer.
     ///  
     /// </summary>
     public class SpinLockWrapper : ILock, ILockCookie
