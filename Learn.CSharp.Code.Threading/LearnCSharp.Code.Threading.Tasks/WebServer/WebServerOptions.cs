@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
-
-
-namespace Learn.CSharp.Code.Threading.Threads.WebServer
+﻿namespace Learn.CSharp.Code.Threading.Threads.WebServer
 {
+    using System.Collections.Generic;
+    using LearnCSharp.Code.Threading.Tasks.WebServer;
+
+    
     public class WebServerOptions
     {
         public string Host { get; set; }

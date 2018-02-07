@@ -1,4 +1,6 @@
-﻿namespace Learn.CSharp.Code.Threading.Threads.Simple
+﻿using Learn.CSharp.Code.Threading.WebServer;
+
+namespace Learn.CSharp.Code.Threading.Threads.Simple
 {
     using System;
     using System.Net;
