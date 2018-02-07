@@ -1,7 +1,7 @@
 ﻿using System.Net;
 
 
-namespace Learn.CSharp.Code.Threading.Threads
+namespace Learn.CSharp.Code.Threading.WebServer
 {
     public static class HttpListenerResponseExtensions
     {
