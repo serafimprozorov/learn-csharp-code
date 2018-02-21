@@ -80,3 +80,46 @@
 - Generic custom attributes.
 
 #### Fixed size buffers
+```
+public unsafe struct Sha256
+{
+    private const int Length = 32;
+
+    // This is the fixed size array in C-style
+    // It is allocated inside the structure
+    // So our structure has size 32 bytes.
+    // We have no overhead for utilitary internal 
+    // runtime fields and memory allocation.
+    // For example, if we need 32 bytes array, we alocate:
+    // - 32 bytes in heap for an array values;
+    // - 8 bytes for an array pointer;
+    // - 16 bytes for lock object and type pointer;
+    // Suddenly... we have 32 bytes of payload and 24(!) meaningless data.
+    // If we use this struct we only use 32 bytes.
+    private fixed byte _bytes[Length];
+    
+    public Sha256(Sha256 other)
+    {
+        for (var i = 0; i < Length; ++i)
+        {
+            this[i] = other[i];
+        }
+    }
+    
+    public byte this[int i]
+    {
+        get
+        {
+            if (i < 0 || i >= Length)
+                throw new ArgumentOutOfRangeException(nameof(i));
+            return _bytes[i];
+        }
+        set
+        {
+            if (i < 0 || i >= Length)
+                throw new ArgumentOutOfRangeException(nameof(i));
+            _bytes[i] = value;
+        }
+    }
+}
+```
