@@ -9,7 +9,7 @@
 - Iterators and yield operator;
 - Anonymous delegates and closures;
 - Generic types, delegates and methods;
-- Unsafe fixed size buffers.
+- [Fixed size buffers](#fixed-size-buffers).
 
 ### C# 3.0 (2007)
 - Implicit variable typing and the var keyword;
@@ -78,3 +78,5 @@
 - IAsyncDisposable interface;
 - Target-typed new operator;
 - Generic custom attributes.
+
+#### Fixed size buffers
